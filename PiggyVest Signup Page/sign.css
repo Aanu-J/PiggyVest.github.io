@@ -1,0 +1,127 @@
+/* Style the color of the webpage */
+body{
+    background-color: rgb(6,40,99);
+}
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 350px;
+    padding: 12px;
+    margin-bottom: 40px;
+    border: 200px;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: #EDF2F7;
+    float: left;
+    font-family: segoe ui, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    width: 300px;
+    padding: 30px 25px 3px 0px;
+    display: block;
+    color: #29313f;
+    font-family: U8, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: left;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #083E9E;
+    color: white;
+    margin-bottom: 50px;
+    padding: 20px 120px 20px 120px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    float: center;
+    font-family: U8, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+  
+/* Style the container */
+.container {
+    margin-top: 9px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 40px;
+    width: 370px;
+    height: 830px;
+    border-left: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+  
+/* Floating column for labels: 25% width */
+.col-25 {
+    float: center;
+    width: 25%;
+    margin-top: 10px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+    float: center;
+    width: 50%;
+    margin-top: 10px;
+    color: #EDF2F7;
+}
+
+/* Style for PiggyVest logo*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+/* Style for header 4*/
+h4 {
+    color: #083e9e;
+    font-family: U8, sans-serif;
+    font-style: 36px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+/* Style for header 5*/
+h5 {
+    color: #4a5568;
+    font-family: Karla, sans-serif;
+    font-style: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    font-size-adjust: 0.3;
+    margin: auto;
+    text-align: center;
+}
+
+/* Details for header 6 - log in*/
+h6 {
+    color: #ffffff;
+    font-family: Karla, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 55px;
+    text-align: center;
+}
